@@ -256,6 +256,7 @@ a {
 }
 .intro__form--button {
   display: inline-block;
+  height: 46px;
   padding: 13px 26px;
   border-radius: 3px;
   background: #190083;
@@ -265,4 +266,9 @@ a {
   font-weight: 700;
   line-height: 20px;
   border: none;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+.intro__form--button:hover {
+  background-color: #000;
 }/*# sourceMappingURL=main.css.map */
