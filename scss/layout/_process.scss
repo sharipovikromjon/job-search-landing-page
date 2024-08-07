@@ -1,0 +1,82 @@
+.process {
+  background-color: $white;
+  padding-top: 92px;
+  padding-bottom: 300px;
+  &__title-block {
+    width: 422px;
+    margin-bottom: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    &--title {
+      color: $black;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+    }
+  }
+  &__text-block {
+    width: 678px;
+    margin-left: auto;
+    margin-right: auto;
+    &--text {
+      color: $black;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 32px;
+    }
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  &__item {
+    width: 436px;
+    &--title {
+      color: $black;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+    &--text {
+      color: $black;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 246px;
+    }
+  }
+  &__img-block {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 90px;
+    margin-bottom: 38px;
+  }
+  &__img-block1 {
+    background-image: url("../../images/svg/process-letter.svg");
+  }
+  &__img-block2 {
+    background-image: url("../images/svg/process-calendar.svg");
+  }
+  &__img-block3 {
+    background-image: url("../images/svg/process-note.svg");
+  }
+  &__button-block {
+    margin-top: 78px;
+    text-align: center;
+    &--button {
+      @include subscribe-button;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
