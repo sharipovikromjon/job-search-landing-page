@@ -3,7 +3,7 @@ layout
   _intro
   _process
   _experience
-  _statistics
+  _statistics - done
   _career
   _colleges
   _stores
