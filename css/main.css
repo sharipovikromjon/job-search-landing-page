@@ -457,4 +457,93 @@ button {
   height: 15px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+
+.statistics {
+  background-color: #f6f6f8;
+  padding-top: 106px;
+  padding-bottom: 111px;
+  text-align: center;
+}
+.statistics__content {
+  max-width: 744px;
+  margin-bottom: 101px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #000;
+}
+.statistics__content--title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 40px;
+}
+.statistics__content--text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.statistics__main--button {
+  border-radius: 3px;
+  background: #190083;
+  padding: 15px 24px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  border: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.statistics__main--button:hover {
+  background-color: #000;
+}
+.statistics__img-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  margin-bottom: 81px;
+}
+.statistics__img-list--text {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-top: 22px;
+}
+.statistics__img-item {
+  background: rgb(249, 249, 249);
+  -webkit-box-shadow: 4px 4px 10px 2px rgb(202, 229, 237);
+          box-shadow: 4px 4px 10px 2px rgb(202, 229, 237);
+  position: relative;
+}
+.statistics__img-item--text {
+  max-width: 68px;
+  position: absolute;
+  top: 0px;
+  right: 43px;
+  color: #000;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+.statistics__img-item:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  color: #000;
 }/*# sourceMappingURL=main.css.map */
