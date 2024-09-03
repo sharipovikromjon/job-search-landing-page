@@ -546,4 +546,48 @@ button {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
   color: #000;
+}
+
+.career {
+  padding-top: 111px;
+  padding-bottom: 111px;
+  background-color: #f3e02b;
+}
+.career__content {
+  text-align: center;
+  color: #000;
+}
+.career__content--title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 41px;
+  max-width: 441px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.career__content--text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 647px;
+  margin-bottom: 79px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.career__content--link {
+  border-radius: 3px;
+  background: #190083;
+  padding: 15px 24px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  border: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.career__content--link:hover {
+  background-color: #000;
 }/*# sourceMappingURL=main.css.map */
